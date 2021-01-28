@@ -11,16 +11,15 @@
             background-size: cover;
         }
 
-        img {
-            float: right;
-            width: 25%;
-            border-radius: 25px;
-        }
-
-        div {
+        .header {
             background-color: rgba(219, 219, 219, 0.4);
             border-radius: 25px;
             overflow: auto;
+        }
+
+        .header img {
+            float: right;
+            border-radius: 25px;
         }
 
         p, h1, h2 {
@@ -29,36 +28,40 @@
         }
 
         p {
-            font-size: 50px;
+            font-size: 30px;
         }
 
         h1 {
             text-align: center;
-            font-size: 75px;
+            font-size: 50px;
         }
 
         h2 {
             text-align: center;
-            font-size: 50px;
+            font-size: 40px;
         }
 
         .contact {
             display: table;
-            margin: 50px auto;
+            margin: auto;
         }
 
         .contact img {
             width: 50px;
-            padding-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
         }
 
     </style>
 </head>
 <body>
-<div>
-    <h1>Yehor Spyrydonov</h1>
+<div class="header">
+    <img src="images/me.jpg" alt="me">
+    <h1>Yehor Spyrydonov </h1>
     <h2>Student of Mentor-frontend course.</h2>
-    <p><img src="images/me.jpg" alt="me">
+    <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna
         aliqua.
@@ -69,16 +72,14 @@
 </div>
 
 <footer class="contact">
-    <a href="https://discordapp.com/users/234972225294434304">
-        <img src="images/contact/discord.png" alt="discord" title="discord">
+    <a href="mailto:spiregor25201@gmail.com">
+        <img src="images/contact/mail.png" alt="gmail" title="gmail">
     </a>
-
     <a href="https://t.me/InfeRno25201" target="_blank">
         <img src="images/contact/telegram.png" alt="telegram" title="telegram">
     </a>
-
-    <a href="mailto:spiregor25201@gmail.com">
-        <img src="images/contact/mail.png" alt="gmail" title="gmail">
+    <a href="https://discordapp.com/users/234972225294434304">
+        <img src="images/contact/discord.png" alt="discord" title="discord">
     </a>
 </footer>
 </body>
